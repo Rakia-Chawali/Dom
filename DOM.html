@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--bootsrap link-->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+      
+        <!--fontawsome link-->
+         <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./DOM.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" style="background-color:grey ;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MissBeauty</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Makeup</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gift & Sets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Blog</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+ <section class="cards">
+    <div class="card" style="width: 18rem;">
+  <img src="https://hudabeauty.com/dw/image/v2/BCNC_PRD/on/demandware.static/-/Sites-huda-master-catalog/default/dw2d21c3cf/images/Empowered_collection/Lip_Trio/Empowered-Stylized0640-Lip-Kit-Trio.jpg?sw=1242&sh=1242&sm=fit" class="card-img-top" alt="makeup">
+  <div class="card-body">
+    <p class="card-text">Empowered Lip Trio Set</p>
+    <p class="dollar"> $25.00</p>
+    <i class="fas fa-plus-circle plus-btn two"></i>
+     <span class="qte">0</span>
+    <i class="fas fa-minus-circle minus-btn"></i>
+   <br>
+  <i class="fas fa-trash-alt"></i>
+   <i class="fas fa-heart"></i>
+  
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://hudabeauty.com/dw/image/v2/BCNC_PRD/on/demandware.static/-/Sites-huda-master-catalog/default/dw4c890a75/images/Empowered_collection/Empowered_Eye-Lip_Kit/set.jpg?sw=1242&sh=1242&sm=fit" class="card-img-top" alt="makeup">
+  <div class="card-body">
+    <p class="card-text">Empowered Eye and Lip Set</p>
+    <p class="dollar">$125.00</p>
+     <i class="fas fa-plus-circle plus-btn two"></i>
+     <span class="qte">0</span>
+    <i class="fas fa-minus-circle minus-btn"></i>
+   <br>
+  <i class="fas fa-trash-alt"></i>
+   <i class="fas fa-heart"></i>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://hudabeauty.com/dw/image/v2/BCNC_PRD/on/demandware.static/-/Sites-huda-master-catalog/default/dw0cff6cee/images/Empowered_collection/Face_gloss/Empowered-Stylized0433-Face-gloss.jpg?sw=1242&sh=1242&sm=fit" class="card-img-top" alt="makeup">
+  <div class="card-body">
+    <p class="card-text">Empowered Face Gloss Highlighting Dew</p>
+    <p class="dollar">$39.00</p>
+    <div class="plus-minis"> 
+     <i class="fas fa-plus-circle plus-btn two"></i>
+     <span class="qte">0</span>
+    <i class="fas fa-minus-circle minus-btn"></i>
+   <br>
+</div>
+  <i class="fas fa-trash-alt"></i>
+  <i class="fas fa-heart"></i>
+  </div>
+
+</div>
+ </section>  
+
+ <div id="price">
+    <p>Total Price:</p>
+    <span class="total">0</span>
+    <span>$</span>
+ </div>
+  <script src="./DOM.js"></script> 
+</body>
+</html>
